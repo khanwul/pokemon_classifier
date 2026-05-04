@@ -49,8 +49,6 @@ uv pip install torch torchvision streamlit pillow requests kagglehub scikit-lear
 ```bash
 # Run the training scripts to generate the model weights
 uv run resnet34.py
-
-# (Optional) Run the other models to compare performances
 uv run vgg16.py
 uv run googlenet.py
 uv run efficientnet.py

@@ -13,7 +13,7 @@ application that can classify 150 types of pokemon.
 4. **EfficientNet-B0:** A state-of-the-art, high-performance model that automatically optimizes depth, width, and resolution
 
 ### Evaluation Metrics (Classification Report)
-*Training Settings: 3 Epochs, Adam Optimizer (lr=0.001), CrossEntropyLoss*
+*Training Settings: 50 Epochs, Adam Optimizer (lr=0.001), CrossEntropyLoss*
 
 | Model | Test Accuracy | Precision (Macro Avg) | Recall (Macro Avg) | F1-Score (Macro Avg) |
 | :--- | :---: | :---: | :---: | :---: |
